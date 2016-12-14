@@ -1,0 +1,1002 @@
+a, a:visited, a:active {
+  color: #444;
+}
+
+#vis {
+  width: 940px;
+  height: 600px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+#view_selection {
+  margin-top: 10px;
+}
+
+.years {
+  font-size: 21px;
+  fill: #aaa;
+}
+
+.tooltip {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  -moz-border-radius:5px;
+	border-radius: 5px;
+  border: 2px solid #000;
+	/* background: #222222; */
+  background: #fff;
+	opacity: .9;
+	/* color: #eeeeee; */
+  color: black;
+	padding: 10px;
+	width: 300px;
+	font-size: 12px;
+	z-index: 10;
+}
+
+.tooltip .title {
+	font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
+}
+
+@import url(https://a1.nyt.com/fonts/css/fonts.css);
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sub_small_hide {
+  display: none;
+}
+.NYT5Style .masthead-tools {
+    padding-right: 0
+}
+.NYT5Style .masthead-tools #bar1-3panel {
+  display: inline;
+  vertical-align: top;
+  background-image: none
+}
+#bar1-3panel {
+  border: 0;
+  position: relative
+}
+#bar1-nyt5wrapper {
+  opacity: 0
+}
+
+
+/* to eliminate FOUT */
+#bar1-3panel > a {
+    -moz-box-sizing: border-box;
+    background-color: #6288A5;
+    border: 1px solid #4D7B9F;
+    border-radius: 3px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 1em;
+  font-family:  nyt-franklin, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+    padding: 7px 10px 6px;
+    text-transform: none;
+    text-decoration: none;
+}
+#bar1-3panel > a:hover {
+    background-color: #326891;
+    border: 1px solid #265E8B;
+    text-decoration: none;
+}
+.bar1-hidden {
+  margin-right: 8px
+}
+.NYT4 .bar1-hidden,
+.NYT4 #bar1-3panel {
+  display: none
+}
+#hovercard {
+    width: 450px;
+    height: 330px;
+    display: none;
+    margin-left: -360px;
+    z-index: 1000000152;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    text-align: left;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+    white-space: normal;
+    background-color: #b0f4c0;    
+    background-size: 450px 330px;
+    box-sizing: border-box;        
+}
+ #bar1-headline {
+    position: absolute;
+    top: 73px;
+    left: 34px;
+    font-family: karnak-normal-400, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    color: #000;    
+    width: 300px;
+    text-align: left;
+} 
+    
+#lineSepBauBar1 {        
+    position: absolute;
+    border-bottom:2px solid #000;
+    top: 142px;
+    left: 33px;
+    width: 81px;
+    height: 1px;
+}
+            
+#bar1-subhead {
+    position: absolute;
+    top: 160px;
+    left: 34px;
+    color: #000;
+    font-family: franklin-normal-300, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 27px;
+    text-align: left;
+}
+    #bar1-subhead b {
+        font-family: franklin-normal-600, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    }
+
+#bar1-subhead span {
+    font-family: franklin-normal-400, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #2f2e2d;
+    line-height: 32px;
+    
+}
+#bar1-cta {
+    font-family: franklin-normal-700, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    bottom: 59px;
+    left: 34px;
+    width: 110px;
+    height: 30px;
+    background: #000;
+    font-size: 11px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+}
+    #bar1-cta a {
+        display: block;
+        height: 100%;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 0px;
+        padding-top: 9px;
+        padding-left: 0 !important;
+    }
+#hovercard:after {
+        bottom: 100%;
+        left: 350px;
+        border: solid transparent;
+        content: " ";
+        width: 0;
+        height: 0;
+        position: absolute;
+        pointer-events: none;
+        border-bottom-color: #d7e67d;
+        border-width: 8px;
+        margin: 0;
+    }
+#bar1-offer-msg {
+        font-family:  nyt-franklin, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        position: absolute;
+        top: 270px;
+        left: 40px !important;
+        width: 150px;
+        height: 30px;
+        font-size: 11px;
+        line-height: 15px;
+        padding: 0;
+        text-decoration: none;
+        color: #363636;
+    }
+#hovercard hr {
+  margin: 4px;
+  width: 320px;
+  opacity: 0.5;
+  color: #000
+}
+.hover-subhead {
+  font-family:  nyt-franklin, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #333;
+  margin: 1px 0 0;
+  width: 170px;
+  position: absolute;
+  top: 10px
+}
+#hovercard h3 a,
+#hovercard p a {
+  color: #000 !important;
+  text-decoration: none;
+  display: block
+}
+a.nyt-button-actions {
+  background: #f7f7f5;
+  color: #58595b !important;
+  width: 126px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc !important;
+  text-transform: uppercase;
+  font-family:  nyt-franklin, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  padding: 6px 0;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 194px;
+  text-decoration: none !important
+}
+#hovercard a.nyt-button-actions:hover {
+  background: #3c6791;
+  color: #fff !important;
+  text-decoration: none !important
+}
+
+#hovercard a.nyt-button-actions.highlightButton:link,
+#hovercard a.nyt-button-actions.highlightButton:visited {
+  color: #fff !important;
+  background: #3c6791;
+  text-decoration: none !important
+}
+
+a.split-all-button {
+  background: #f3f3f4;
+  width: 345px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  font-family:  nyt-franklin, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 30px;
+  margin: 0;
+  border: 1px solid #CCC;
+  text-align: center;
+  vertical-align: middle
+}
+
+#hovercard a.split-all-button:hover {
+  background: #fff;
+  color: #004276 !important;
+  text-decoration: underline !important
+}
+
+.NYT5Style #hovercard {
+  top: 26px
+}
+
+.ad.bar1-ad a.bar1-introtext,
+#memberTools .bar1-introtext,
+.masthead-tools a.bar1-introtext {
+  text-decoration: none;
+  color: #666
+}
+
+.masthead-tools a.bar1-introtext {
+  position: relative;
+  margin-top: 2px
+}
+
+.bar1-introtext {
+  padding-right: 5px
+}
+
+.ad.bar1-ad .user-subscriptions-menu li a {
+  padding-left: 0;
+  border-left: 0
+}
+
+#bar1-logo img{
+    position: absolute;
+    left: 34px;
+    top: 34px;
+    width: 137px;
+}
+#hovercard::after {bottom: 100%;left: 350px;border: solid transparent;content: " ";width: 0;height: 0;position: absolute;pointer-events: none;border-bottom-color: #b0f4c0;border-width: 8px;margin: 0;}
+
+/* Chrome-only */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .NYT5Style #hovercard {
+    left: 50%;
+    top: 29px
+  }
+  .NYT5Style #hovercard:before {
+    top: -14px
+  }
+}
+/* Responsive 
+@media screen and (max-width: 734px) {
+  .bar1-hidden,
+  #bar1-3panel {
+    display: none
+  }
+  .ad.bar1-ad .user-subscriptions-group {
+    display: block
+  }
+} */
+/* Not on interactives */
+#interactiveABC #bar1-3panel {
+  display: none
+}
+
+
+/* Structure */
+.nytg {
+  font-family: Arial;
+}
+#chartFrame{
+  width: 970px;
+  height: 550px;
+  -webkit-transition: height ease-in-out 1s;  
+  -moz-transition: height ease-in-out 1s;    
+  -o-transition: height ease-in-out 1s;    
+  -ms-transition: height ease-in-out 1s;        
+}
+
+
+#chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#error {
+  
+  
+}
+#error p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px;
+  border: solid 1px #CCC;
+  background: #ffd;
+  padding: 10px;
+  
+}
+
+#error a {
+  text-decoration: underline;
+}
+
+#chartCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+#chartCanvas svg {
+  height: 100%;
+  overflow: hidden;config/
+  assets.yml
+  settings.yml
+
+}
+
+#tooltipContainer {
+  position: absolute;
+  bottom: 0;
+  width: 230px;
+  left: -125px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.9);
+  color: #000;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);  
+  border:1px solid rgba(200,200,200,0.85);
+  text-align:center;
+}
+
+#tooltip {
+ text-align:center;  
+  z-index: 1000;
+  position: absolute;
+  display: none;
+}
+
+#tooltip .tail {
+  position: absolute;
+  bottom: -8px;
+  left: 105px;
+  width: 40px;
+  height: 8px;
+  background: url(https://static01.nyt.com/packages/images/newsgraphics/2012/0202-federal-budget/tail_white.png) 50% 0%;
+}
+#tooltip .department {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 10px;
+  margin-bottom: 2px;
+  color:#666;
+  text-align:center;  
+
+}
+#tooltip .rule{
+  height:1px;
+  margin:1px auto 3px;
+  background:#ddd;
+  width:130px;
+}
+
+#tooltip .discretion{
+  color:#666;
+/*   text-transform:uppercase;*/
+  font-size: 11px;   
+  text-align:center;  
+  font-style:italic;
+}
+#tooltip .name {
+  text-align: left;
+  font-size: 13px;
+/*  width:170px;*/
+ text-align:center;  
+}
+#tooltip .value {
+/*  position:absolute;*/
+ text-align:center;
+  right:10px;
+  top:28px;
+  font-size: 16px;
+/*  width:100px;*/
+ text-align:center;  
+  overflow:hidden;
+  font-weight:bold;
+}
+#tooltip .change {
+  padding-left:10px;
+/*  width:110px;  */
+  font-size: 16px;  
+  text-align:right;  
+  overflow:hidden;
+/*  position:absolute;*/
+  font-weight:bold;  
+  color:#666;
+ text-align:center;  
+ display:inline;
+}
+#tooltip .valuesContainer {
+  padding-top:7px;
+  
+}
+#tooltip.minus .change{
+  color:#900;
+}
+#tooltip.plus .change{
+  color:#090;
+}
+
+/* Navigation */
+.navBar {
+  border-top: solid 1px #DDD;
+  padding: 15px 0 0;
+  margin: 0 10px;
+  z-index: 100;
+  position: absolute;
+  width: 950px;
+}
+
+
+.navigation {
+  
+}
+.navigation li {
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  padding: 10px 18px;
+  border-top: solid 1px #CCC;
+  border-bottom: solid 1px #CCC;
+  border-left: solid 1px #CCC;
+  background: #f9f9f9;
+  margin: 0 0;
+}
+
+.navigation li:first-of-type{
+  border-radius: 4px 0 0 4px;
+}
+.navigation li:last-of-type{
+
+  border-right: solid 1px #CCC;
+  border-radius: 0 4px 4px 0;
+}
+.navigation li.selected {
+  color: #000;
+  background: #e9e9e9;
+  border-color: #AAA;
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+
+/*Category List*/
+#categoryBrowser li{
+  cursor: pointer;
+  background-image: none;
+  background-color: none;
+  border-bottom: solid 1px #f0f0f0;
+  padding: 3px;
+  margin: 0 0 1px 0;
+}
+#categoryBrowser li:hover {
+  background-color: #f3f3f3;
+}
+
+
+/* Scoop Fixes */
+
+span.noWrap.feedback {
+  white-space: normal;
+}
+
+#interactiveFooter {
+    border-top:1px solid #DDDDDD;
+    
+    margin-top:10px;
+    padding-top:12px !important;
+}
+
+div.storyHeader h1 {
+    font-size: 26px!important;
+    margin-bottom:4px!important;
+    margin-top:3px!important;
+}
+
+.ledeStory div.storySummary .summary {
+  line-height: 25px;
+  font-size: 15px;
+/*  display: none;*/
+}
+
+.ledeStory .insetHFullWidth .storyHeader .dateline{line-height:2.4em;margin-bottom:3px;margin-top:0px;}
+.insetHFullWidth #articleToolsTop{margin-bottom:0;margin-top:0px;}
+
+
+/********************************
+ ** FILE: overlays.css
+ ********************************/
+
+/*Overlays*/
+#overlays {
+  position: absolute;
+  z-index: 40;
+}
+
+.overlay {
+  position: absolute;  
+  display:none;
+  color: #666;
+  
+}
+.overlay h5 {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+.overlay p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45em;
+}
+.overlaySVG {
+  width: 970px;
+  height: 850px;
+  position: absolute;
+  z-index: 0;
+}
+
+
+
+/*Start*/
+.overview {
+  position: absolute;
+  width: 275px;
+  top:100px;
+  left: 10px;
+}
+
+.overview p{
+  font-size: 13px;
+}
+
+.aside {
+  position: absolute;
+  width: 125px;
+  left: 775px;
+  top: 266px;
+  text-align: center;
+}
+
+.increasesLabel {
+  position: absolute;
+  top: 100px;
+  left: 540px;
+  width: 60px;
+  border-top: dashed 1px rgba(0,0,0,0.2);
+}
+.increasesLabel span {
+  position: absolute;
+  right: -105px;
+  top: -10px;
+  width: 100px;
+}
+.decreasesLabel {
+  position: absolute;
+  top: 470px;
+  left: 560px;
+  width: 60px;
+  border-top: dashed 1px rgba(0,0,0,0.2);
+}
+.decreasesLabel span {
+  position: absolute;
+  right: -105px;
+  top: -10px;
+  width: 100px;
+}
+
+
+#deficitCircle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 60px;
+  left: 700px;
+}
+
+.deficitCircle {
+  stroke-width:1;
+  stroke:#999;
+  stroke-dasharray:4 4;
+  fill:none;
+}
+
+
+#colorKey {
+  position: absolute;
+  top: 300px;
+  left: 360px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#sizeKey {
+  position: relative;
+  height: 110px;
+  width: 200px;
+}
+#scaleKey {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.circleKeyLabel {
+  position: absolute;
+  border-top: solid 1px #DDD;
+  width: 40px;
+}
+
+#sizeKey .circleKeyLabel span {
+  font-size: 10px;
+  color: #999;
+  position: absolute;
+  display: block;
+  left: 45px;
+  top: -8px;
+  width: 80px;
+  z-index: 100;
+}
+
+.scaleKeyCircle {
+  stroke-width:1;
+  stroke:#999;
+  stroke-dasharray:2 2;
+  fill:none;
+}
+
+#colorKey ul {
+  margin: 0;
+  padding: 0;
+}
+#colorKey p {
+  margin-bottom: 8px;
+}
+
+#colorKey li{
+  background-image: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+  display: block;
+  height: 100%;
+}
+
+.colorSwatches{
+  width: 100%;
+  height: 10px;
+}
+
+.colorSwatches li {
+  width: 16%;
+  border-right: solid white 1px;
+}
+
+.colorTicks {
+  height: 6px;
+}
+.colorTicks li {
+  width: 16%;
+  border-right: solid #CCC 1px;
+}
+
+.colorLabels {
+  margin-top: 3px;
+  height: 20px;
+  position: relative;
+  left: 8%;
+
+}
+
+.colorLabels li {
+  width: 16%;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1em;
+  padding: 4px 0 0 0!important;
+  margin: 0;
+}
+
+
+
+
+/*Mandatory*/
+
+#mandatoryOverlay {
+  
+}
+
+.discretionaryExplainer {
+  text-align: center;
+  left: 550px;
+  top: 100px;
+  position: absolute;
+  width: 340px;
+}
+
+
+.mandatoryExplainer {
+  text-align: center;
+  left: 150px;
+  top: 80px;
+  position: absolute;
+  width: 340px;
+}
+
+.discretionaryAside {
+  position: absolute;
+  left: 800px;
+  top: 120px;
+  width: 130px;
+}
+
+.mandatoryAside {
+  position: absolute;
+  left: 30px;
+  top: 120px;
+  width: 140px;
+}
+
+/*By Change*/
+#discretionaryIntro {
+  top: 80px;
+  left: 10px;
+  width: 500px;
+  position: absolute;
+}
+.discretionaryTickLabel {
+  width: 200px;
+  position: absolute;
+  left: 10px;
+}
+.discretionaryTickLabel p {
+  position:relative;
+  top: -6px;
+  font-size: 10px;
+}
+.discretionaryTick {
+  position: absolute;
+  border-top: dashed 1px #CCC;
+  left: 60px;
+  width: 900px;
+}
+.discretionaryTick p {
+  font-size: 10px;
+  text-align: left;
+  position: absolute;
+  left: -50px;
+  width: 40px;
+  top: -8px;
+}
+.discretionaryZeroTick {
+  border-top: solid 1px #AAA;
+  left: 10px;
+  width: 950px;
+}
+
+
+/*Department*/
+.departmentAnnotation {
+  position: absolute;
+  z-index: 1000;
+}
+
+.departmentAnnotation p {
+  font-size: 12px;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.departmentAnnotation p.total {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  color:#000;
+}
+.departmentAnnotation p.total {
+  font-weight: bold;  
+}
+
+.departmentAnnotation.row0 p {
+  font-size: 14px;
+}
+.departmentAnnotation.row0 p.total {
+  font-size: 16px;
+}
+.departmentAnnotation.row1 p{
+  font-size: 11px;
+}
+.departmentAnnotation.row1 p.total{
+  font-size: 13px;
+}
+
+.departmentAnnotation.row2 p{
+  font-size: 10px;
+}
+.departmentAnnotation.row2 p.total{
+  font-size: 12px;
+}
+
+.departmentAnnotation.row3 p{
+  font-size: 10px;
+}
+.departmentAnnotation.row3 p.total{
+  font-size: 12px;
+}
+.departmentAnnotation.row4 p{
+  font-size: 10px;
+}
+.departmentAnnotation.row4 p.total{
+  font-size: 12px;
+}
+
+
+/*Department*/
+#departmentOverlay p.emptyCircleLabel{
+  position: absolute;
+  left: 125px;
+  top: 280px;
+  width: 80px;
+  text-align: center;
+  color: #999;
+  font-size: 11px;
+  line-height: 1.45em;
+  font-style: italic;
+  
+}
+
+
+
+
+/********************************
+ ** FILE: color_key.css
+ ********************************/
+
+.change-decrease3 {
+  background-color: #d84b2a;
+}
+.change-decrease2 {
+  background-color: #ee9586;
+}
+.change-decrease1{
+  background-color: #e4b7b2;
+}
+.change-same {
+  background-color: #CCC;
+}
+.change-increase1 {
+  background-color: #beccae;
+}
+.change-increase2 {
+  background-color: #9caf84;
+}
+.change-increase3 {
+  background-color: #7aa25c;
+}
+
+/*text color for changes*/
+.change-decrease3 span.label {
+    color: #eeb0a2;
+}
+.change-decrease2 span.label {
+    color: #f8d0ca;
+}
+.change-decrease1 span.label {
+    color: #f3dfdd;
+}
+.change-same span.label {
+    color: #FFFFFF;
+}
+.change-increase1 span.label {
+    color: #e2e8db;
+}
+.change-increase2 span.label {
+    color: #d3dbc9;
+}
+.change-increase3 span.label {
+    color: #c5d6b7;
+}

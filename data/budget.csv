@@ -1,0 +1,42 @@
+id,vote_appropriations,budget_2017,budget_2016,group,change,employment_costs,operations_maintenance,capital_expenditures,total_amount,appropriation_type
+1,Office of the President and Cabinet,187289000,178966000,2,4.65,98493000,58300000,18850000,175643000,Constitutional
+2,Parliament of Zimbabwe,30304000,20255000,2,49.61,10263000,8600000,11850000,30713000,Constitutional
+3,"Public Service, Labour and Social Services",193610000,173888000,1,11.34,165019000,27750000,1020000,193789000,Statutory
+4,Defence,357975000,357665000,1,0.09,292492000,40000000,8030000,340522000,Statutory
+5,Finance and Economic Development,209805000,27866000,1,652.91,162077000,81479000,37635000,281191000,Statutory
+6,Audit Office,3215000,4050000,2,-20.62,1962000,1100000,200000,3262000,Constitutional
+7,Industry and Commerce,18534000,17465000,1,6.12,2472000,2920000,13155000,18547000,Statutory
+8,"Agriculture, Mechanisation and Irrigation Development",291564000,145089000,1,100.96,48466000,8000000,236230000,292696000,Statutory
+9,Mines & Mining Development,5308000,5964000,1,-11.00,4045000,900000,450000,5395000,Statutory
+10,"Environment, Water and Climate",39985000,33242000,1,20.28,2210000,1100000,36790000,40100000,Statutory
+11,Transport and Infrastructural Development,55651000,38870000,1,43.17,8903000,1900000,45035000,55838000,Statutory
+12,Foreign Affairs,32787000,36795000,1,-10.89,17523000,12400000,2550000,32473000,Statutory
+13,"Local Government, Public Works and National Housing",49400000,45640000,1,8.24,14847000,19900000,14960000,49707000,Statutory
+14,Health and Child Care,301660000,330789000,1,-8.81,222916000,29600000,29460000,281976000,Statutory
+15,Primary and Secondary Education,783300000,810430000,1,-3.35,788969000,7977000,6825000,803771000,Statutory
+16,"Higher & Tertiary Education, Science and Technology Development",200886000,304235000,1,-33.97,172450000,5256000,23180000,200886000,Statutory
+17,"Youth, Indigenisation & Economic Empowerment",16974000,17401000,1,-2.45,13082000,3350000,760000,17192000,Statutory
+18,Home Affairs,384321000,395854000,1,-2.91,339118000,16540000,8650000,364308000,Statutory
+19,"Justice, Legal and Parliamentary Affairs",95516000,118819000,1,-19.61,69594000,19375000,2410000,91379000,Statutory
+20,"Information, Media and Broadcasting Services",3366000,3982000,1,-15.47,2129000,900000,300000,3329000,Statutory
+21,Small and Medium Enterprises and Cooperative Development,6467000,5363000,1,20.59,2261000,1720000,2150000,6131000,Statutory
+22,Energy and Power Development,6267000,6810000,1,-7.97,868000,370000,5050000,6288000,Statutory
+23,"Women Affairs, Gender & Community Development",8286000,13113000,1,-36.81,6824000,1400000,210000,8434000,Statutory
+24,Tourism & Hospitality Industry,2657000,2722000,1,-2.39,834000,1700000,140000,2674000,Statutory
+25,"Information Communication Technology, Postal and Courier Services",6340000,6257000,1,1.33,1245000,3000000,2110000,6355000,Statutory
+26,Lands and Rural Resettlement,7558000,9253000,1,-18.32,3892000,3650000,100000,7642000,Statutory
+27,Judicial Services Commission,13865000,15518000,2,-10.65,11030000,2069000,1000000,14099000,Constitutional
+28,Public Service Commission,18020000,19205000,2,-6.17,12854000,4500000,1390000,18744000,Constitutional
+29,Sports and Recreation,4326000,4202000,2,2.95,1639000,1400000,1280000,4319000,Constitutional
+30,Macro-Economic Planning and Investment Promotion,6203000,6155000,2,0.78,4167000,1650000,110000,5927000,Constitutional
+31,"Welfare Services for War Veterans, Former Political Detainees, Restrictees and War Collaborators",22060000,20831000,2,5.90,830000,21000000,250000,22080000,Constitutional
+32,"Rural Development, Promotion and Preservation of Culture and Heritage",15875000,14227000,2,11.58,10031000,1500000,4220000,15751000,Constitutional
+33,Council of Chiefs,3130000,0,2,0,30000,600000,2500000,3130000,Constitutional
+34,Human Rights Commission,1908000,0,2,0,1154000,597000,200000,1951000,Constitutional
+35,National Peace and Reconciliation Commission,1123000,0,2,0,699000,220000,230000,1149000,Constitutional
+36,National Prosecuting Authority,3568000,0,2,0,2416000,1000000,220000,3636000,Constitutional
+37,Zimbabwe Anti-Corruption Commission,2147000,0,2,0,1080000,1000000,100000,2180000,Constitutional
+38,Zimbabwe Electoral Commission,9268000,0,2,0,6061000,3600000,100000,9761000,Constitutional
+39,Zimbabwe Gender Commission,1087000,0,2,0,435000,550000,120000,1105000,Constitutional
+40,Zimbabwe Land Commission,1524000,0,2,0,709000,697000,140000,1546000,Constitutional
+41,Zimbabwe Media Commission,662000,0,2,0,200000,430000,40000,670000,Constitutional
