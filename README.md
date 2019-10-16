@@ -1,6 +1,6 @@
 # Animated Bubble Chart
 
-D3.js Ways to Slice Chinamasa's 2017 Zimbabwe Budget Proposal
+Ways to Slice Chinamasa's 2017 Zimbabwe Budget Proposal as visualised by a D3.js bubble chart
 
 ## Description
 
